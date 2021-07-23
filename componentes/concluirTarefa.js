@@ -10,13 +10,13 @@ const BotaoConcluir = () => {
     botaoConcluir.addEventListener("click", concluirTarefa);
 
     return botaoConcluir;
-}
+};
 
 const concluirTarefa = (evento) => {
     const botaoConcluir = evento.target;
     const tarefaCompleta = botaoConcluir.parentElement;
 
     tarefaCompleta.classList.toggle("done"); // aplicando características do CSS;
-}
+};
 
 export default BotaoConcluir;
